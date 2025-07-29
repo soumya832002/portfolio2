@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soumya Nayak - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+
+  <header class="hero">
+    <img src="Photo.jpg" alt="Profile Image" class="profile-img" />
+    <h1>Soumya Nayak</h1>
+    <p>Frontend Developer | UI/UX Enthusiast</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/soumya_nayak.8" target="_blank">Instagram</a>
+      <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <p>I’m Soumya Nayak, a front-end developer who loves turning clean code into creative, interactive web experiences.
+
+My passion lies in building websites that don’t just work—but feel alive, smooth, and beautifully designed.
+
+I specialize in HTML, CSS, JavaScript, and UI/UX principles to craft responsive layouts and engaging interfaces.
+
+I believe that good design and code go hand-in-hand, and I enjoy merging them to tell meaningful digital stories.
+
+Outside of coding, you’ll find me exploring design trends, learning new tools, or sipping chai while thinking up my next idea. ☕💡
+
+I’m always excited to collaborate on projects that mix creativity, technology, and purpose.
+
+.</p>
+  </section>
+
+  <section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="skill-item">HTML5</div>
+      <div class="skill-item">CSS3</div>
+      <div class="skill-item">JavaScript</div>
+      <div class="skill-item">React</div>
+      <div class="skill-item">UI/UX</div>
+      <div class="skill-item">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="projects" class="card">
+  <h2>Projects</h2>
+  <div class="grid">
+    <img src="photo 2.jpg" alt="Project 1" />
+    <div class="project-card horizontal">
+      <div class="project-text">
+        <h3>BIKE BARCODE SCANNER</h3>
+        <p>
+          The Bike Barcode Scanner System is a smart solution designed to efficiently track and manage bikes using barcode or QR code technology. Each bike is assigned a unique barcode, which is scanned using a mobile device or scanner to log its activity—such as entry, exit, or location—into a digital database.
+
+This system eliminates manual record-keeping and streamlines the process of monitoring bike usage, especially in areas like college campuses, corporate offices, parking lots, or delivery fleets. By automating identification and logging, the system improves accuracy, enhances security, and offers real-time visibility of bike movement.
+
+The scanned data can be linked to the owner's details and can be displayed on a web or mobile dashboard for administrators. Additional features can include time tracking, alerts for unauthorized access, and usage reports..
+        </p>
+      </div>
+      
+    </div>
+    <!-- You can add more horizontal project cards here -->
+  </div>
+</section>
+
+
+  <section id="contact" class="card">
+  <h2>Contact Me</h2>
+  <form>
+
+    <!-- Name -->
+    <div class="form-block">
+      <label for="name">Name</label><br />
+      <input type="text" id="name" name="name" required 
+        style="width: 100%; max-width: 400px; height: 40px; border-radius: 8px; padding: 10px; margin-top: 5px;" />
+    </div>
+
+    <!-- Email -->
+    <div class="form-block">
+      <label for="email">Email</label><br />
+      <input type="email" id="email" name="email" required 
+        style="width: 100%; max-width: 400px; height: 40px; border-radius: 8px; padding: 10px; margin-top: 5px;" />
+    </div>
+
+    <!-- Subject -->
+    <div class="form-block">
+      <label for="subject">Subject</label><br />
+      <input type="text" id="subject" name="subject" required 
+        style="width: 100%; max-width: 400px; height: 40px; border-radius: 8px; padding: 10px; margin-top: 5px;" />
+    </div>
+
+    <!-- Message -->
+    <div class="form-block">
+      <label for="message">Message</label><br />
+      <textarea id="message" name="message" rows="5" required 
+        style="width: 100%; max-width: 400px; height: 120px; border-radius: 8px; padding: 10px; margin-top: 5px;"></textarea>
+    </div>
+
+    <!-- Send Button -->
+    <div class="form-block">
+      <button type="submit" 
+        style="width: 100%; max-width: 400px; height: 40px; border-radius: 8px; background-color: #00ffd5; color: #000; font-weight: bold; border: none; cursor: pointer; margin-top: 10px;">
+        Send Message
+      </button>
+    </div>
+
+  </form>
+</section>
+
+
+
+
+  <footer class="footer">
+    <p>© 2025 Soumya Nayak</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
